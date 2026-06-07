@@ -52,31 +52,28 @@ Custom 9-sensor IR array using TCRT5000 with analog multiplexing.
 
 ---
 
-## 🔌 Pinout
 
-### Motors
-```c
-#define PIN_PWMR 40
-#define PIN_RF 42
-#define PIN_RB 2
-#define PIN_PWML 39
-#define PIN_LB 1
-#define PIN_LF 41
-Encoders
-#define PIN_ENCODER_RIGHT_A 21
-#define PIN_ENCODER_RIGHT_B 47
 
-#define PIN_ENCODER_LEFT_A 46
-#define PIN_ENCODER_LEFT_B 45
-Multiplexer
-#define PIN_MUX_SIG 14
-#define PIN_MUX_S0 19
-#define PIN_MUX_S1 20
-#define PIN_MUX_S2 3
-#define PIN_MUX_S3 48
-I2C
-#define PIN_SDA_0 4
-#define PIN_SCL_0 5
+## GPIO Mapping
 
-#define PIN_SDA_1 17
-#define PIN_SCL_1 16
+| Function | GPIO |
+|----------|------|
+| Right PWM | 40 |
+| Right Forward | 42 |
+| Right Backward | 2 |
+| Left PWM | 39 |
+| Left Forward | 41 |
+| Left Backward | 1 |
+| Right Encoder A | 21 |
+| Right Encoder B | 47 |
+| Left Encoder A | 46 |
+| Left Encoder B | 45 |
+| MUX SIG | 14 |
+| MUX S0 | 19 |
+| MUX S1 | 20 |
+| MUX S2 | 3 |
+| MUX S3 | 48 |
+| SDA0 | 4 |
+| SCL0 | 5 |
+| SDA1 | 17 |
+| SCL1 | 16 |
