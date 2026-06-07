@@ -83,26 +83,3 @@ I2C
 📹 Demo
 
 The video shows the robot completing competition tracks with stable performance.
-
-📌 Note
-
-This project is part of a 3-robot evolution:
-ShyCat → Endermen → Spaghetti (final version)
-
-
----
-
-# 📌 3) After this you just do:
-
-1. Create file: `README.md`
-2. Paste everything
-3. Upload your images:
-   - `spaghetti.jpg`
-   - `ir_sensor.jpg`
-4. Push to GitHub
-
----
-
-If you want, I can next help you:
-- :contentReference[oaicite:0]{index=0}
-- or :contentReference[oaicite:1]{index=1} (this will make your repo look 10x more professional)
