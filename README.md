@@ -80,6 +80,3 @@ I2C
 
 #define PIN_SDA_1 17
 #define PIN_SCL_1 16
-📹 Demo
-
-The video shows the robot completing competition tracks with stable performance.
