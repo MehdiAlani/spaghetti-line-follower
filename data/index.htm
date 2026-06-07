@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>
+            Spaghetti Dashboard
+        </title>
+
+        <link rel = "stylesheet"  href = "style.css"> 
+    </head>
+    <body>
+        <h1 id = "title">Spaghetti Dashboard</h1>
+
+        <p1 class="LOG">
+            BootTime: <span id = "boot_time"> 0</span>s
+        </p1>
+
+        <p2 class="LOG">
+            CPU_Temp: <span id = "cpu_temp">25</span>C
+        </p2>
+
+        <p3 class="LOG">
+            batt_voltage: <span id = "batt_voltage"></span>
+        </p3>
+
+        <p4 class="LOG">
+            imu_z: <span id = "imu_z"></span>
+        </p4>
+
+        <p4 class="LOG">
+            distance: <span id = "distance">cm</span>
+        </p4>
+        
+        <div class = "IR_ARRAY">
+            <div class = "IR" id = "IR_0">0</div>
+            <div class = "IR" id = "IR_1">1</div>
+            <div class = "IR" id = "IR_2">2</div>
+            <div class = "IR" id = "IR_3">3</div>
+            <div class = "IR" id = "IR_4">4</div>
+            <div class = "IR" id = "IR_5">5</div>
+            <div class = "IR" id = "IR_6">6</div>
+            <div class = "IR" id = "IR_7">7</div>
+            <div class = "IR" id = "IR_8">8</div>
+        </div>
+
+        <div class="buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+        </div>
+
+        <pre id ="log"></pre>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html> 
+
+
+
+
+
+<!-- 
+        <div class = "IR_CNST">
+            <textarea id = "ir_kp"></textarea>
+            <textarea id = "ir_kd"></textarea>
+            <textarea id = "ir_ki"></textarea>
+        </div> -->

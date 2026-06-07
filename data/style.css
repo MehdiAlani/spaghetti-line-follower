@@ -1,0 +1,82 @@
+body{
+    background-color:cyan
+}
+
+h1{
+    color : blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.LOG{
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0,0,0);
+    justify-content: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.IR_ARRAY{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center; 
+    background: blue;
+}
+
+
+.IR {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: BLUE;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+
+.buttons{
+    display: flex;              
+    justify-content: center;     
+    gap: 20px;                   
+    margin-top: 20px;
+    height: 100px; 
+}
+
+button{
+    height: 100px; 
+    width: 100px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-style: bold;
+    background-color: green;
+    color: white;
+}
+
+
+#log {
+    width: 80%;
+    margin: 20px auto;       /* center */
+    padding: 20px;
+
+    font-size: 20px;         /* bigger text */
+    font-family: monospace;  /* clean terminal font */
+    white-space: pre-wrap;   /* keep newlines */
+    background: #111;        /* dark console */
+    color: #0f0;             /* green terminal text */
+    border-radius: 10px;
+}
+
+/* .IR_CNST{
+    height: 200px;
+    width: 200px;
+
+} */
